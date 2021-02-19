@@ -18,7 +18,7 @@ The project uses Python 3 with a few standard libraries and PyEZ
 
 ## Setup
 
-For this to work Netconf has to be enabled on the devices:
+For this to work Netconf has to be enabled on the device:
 ```
 set system services netconf ssh
 ```
