@@ -31,7 +31,7 @@ sudo pip3 install junos-eznc
 
 Finally, one will have to make the script executable:
 ```
-chmod 700 simple-push-set-config.py
+chmod u+rwx simple-push-set-config.py
 ```
 
 ## How to use
@@ -45,5 +45,5 @@ Configfile - A file with a number of set commands to send to the device.
 Example of use:
 
 ```
-% ./simple-push-set-config.py 172.16.75.142 hkeiken juniper1 configfile
+% ./simple-push-set-config.py 172.16.75.142 myuser password configfile
 ```
