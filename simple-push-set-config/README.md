@@ -26,7 +26,7 @@ set system services netconf ssh
 In addition there is a need for Python3 and PyEZ to be installed.
 PyEZ can be installed like this if Python3 is installed:
 ```
-sudo pip3 install junos-eznc
+sudo pip3 install -r requirements.txt
 ```
 
 Finally, one will have to make the script executable:
